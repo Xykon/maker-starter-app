@@ -51,8 +51,8 @@ export default {
       create_account: 'Create an account on the Helium Network',
       login_with_helium: 'Already have a Helium Wallet?\nTap to get started.',
       subtitle:
-        'Lorem ipsum <b><errorText>$HNT</errorText></b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      title: 'Welcome\nto Maker App',
+        'This app is used to onboard your Pycom Helium Gateway on the Helium Network so you can start earning HNT. Please create a Helium account or link to an existing one.',
+      title: 'Welcome to the\nPycom Helium Maker App',
     },
     linkAccount: {
       stepOne: '1. Download a supported Wallet App',
@@ -167,7 +167,7 @@ export default {
           title: '[Placeholder]',
         },
       ],
-      title: '[Your Hotspot\nSetup Instructions]',
+      title: '[Pycom Helium Miner\nSetup Instructions]',
     },
     enable_location: {
       cancel: "No thanks, I'll set it up later",
@@ -299,7 +299,7 @@ export default {
         assertLocation: 'Assert Location',
         transfer: 'Transfer Hotspot',
       },
-      title: 'Add a\n[Placeholder] Miner',
+      title: 'Add a\nPycom Helium Miner',
     },
   },
   learn: {
