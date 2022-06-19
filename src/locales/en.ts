@@ -101,7 +101,7 @@ export default {
     ok: 'OK',
     scan_again: 'Scan Again',
     search_location: 'Search for an address or place',
-    skip: '[skip button]',
+    skip: 'Continue',
     something_went_wrong: 'Something went wrong',
     understand: 'I understand',
     unknown: 'Unknown',
@@ -151,23 +151,23 @@ export default {
     education: {
       cards: [
         {
-          subtitle: '[Placeholder]',
-          title: '[Placeholder]',
+          subtitle: 'Version 1 of the Pycom Helium Miner',
+          title: 'Pycom Helium Miner V1',
         },
         {
-          subtitle: '[Placeholder]',
-          title: '[Placeholder]',
+          subtitle: '[Placeholder2]',
+          title: 'Title2',
         },
         {
-          subtitle: '[Placeholder]',
-          title: '[Placeholder]',
+          subtitle: '[Placeholder3]',
+          title: 'Title3',
         },
         {
-          subtitle: '[Placeholder]',
-          title: '[Placeholder]',
+          subtitle: '[Placeholder4]',
+          title: 'Title4',
         },
       ],
-      title: '[Pycom Helium Miner\nSetup Instructions]',
+      title: 'Pycom Helium Miner\nSetup Instructions',
     },
     enable_location: {
       cancel: "No thanks, I'll set it up later",
@@ -257,8 +257,8 @@ export default {
       title: 'REGISTERING HOTSPOT',
     },
     selection: {
-      subtitle: '[Placeholder instructions]',
-      title: 'Add\nyour Hotspot.',
+      subtitle: '',
+      title: 'Add your Pycom Helium Miner.',
     },
     skip_location: {
       subtitle_1: 'You have decided to assert location later.',
@@ -303,7 +303,7 @@ export default {
     },
   },
   learn: {
-    next: '[next button]',
+    next: 'Continue',
   },
   more: {
     sections: {

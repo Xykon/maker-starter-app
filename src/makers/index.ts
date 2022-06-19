@@ -53,5 +53,5 @@ export const AntennaTypeCount = AntennaModelKeys.length
 
 export const getMakerSupportEmail = (makerId?: number): string => {
   const makerKey = Object.keys(Makers).find((m) => Makers[m].id === makerId)
-  return makerKey ? Makers[makerKey].supportEmail : 'support@helium.com'
+  return makerKey ? Makers[makerKey].supportEmail : 'helium@pycom.io'
 }

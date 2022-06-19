@@ -4,7 +4,7 @@ import { MakerAntenna } from './antennaMakerTypes'
 
 export type HotspotMakerLangField = 'internal' | 'externalOnboard'
 
-export type OnboardType = 'BLE' | 'QR' | 'WEB'
+export type OnboardType = 'BLE'
 
 type LangFieldsRecord = Record<
   HotspotMakerLangField,
