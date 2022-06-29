@@ -28,7 +28,6 @@ const HotspotSetupBluetoothSuccess = () => {
     scannedDevices,
     connect,
     isConnected,
-    checkFirmwareCurrent,
     readWifiNetworks,
     getOnboardingAddress,
   } = useHotspotBle()
@@ -73,13 +72,13 @@ const HotspotSetupBluetoothSuccess = () => {
 
       try {
         // check firmware
-        const minFirmware = await getMinFirmware()
-        if (!minFirmware) return
-        const firmwareDetails = await checkFirmwareCurrent(minFirmware)
-        if (!firmwareDetails.current) {
-          navigation.navigate('FirmwareUpdateNeededScreen', firmwareDetails)
-          return
-        }
+        // const minFirmware = await getMinFirmware()
+        // if (!minFirmware) return
+        // const firmwareDetails = await checkFirmwareCurrent(minFirmware)
+        // if (!firmwareDetails.current) {
+        //   navigation.navigate('FirmwareUpdateNeededScreen', firmwareDetails)
+        //   return
+        // }
 
         // scan for wifi networks
         const networks = uniq((await readWifiNetworks(false)) || [])
@@ -108,7 +107,6 @@ const HotspotSetupBluetoothSuccess = () => {
     }
     configureHotspot()
   }, [
-    checkFirmwareCurrent,
     connectStatus,
     gatewayAction,
     getMinFirmware,

@@ -1,4 +1,4 @@
-import { LOCATION, askAsync, PermissionType } from 'expo-permissions'
+import { LOCATION, askAsync, PermissionType } from 'expo-location'
 import { useCallback } from 'react'
 import locationSlice from '../store/location/locationSlice'
 import { useAppDispatch } from '../store/store'

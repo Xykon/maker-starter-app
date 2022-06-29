@@ -572,7 +572,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maker.makerapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pycom.makerapp;
 				PRODUCT_NAME = MakerApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "MakerApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -602,7 +602,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maker.makerapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pycom.makerapp;
 				PRODUCT_NAME = MakerApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "MakerApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

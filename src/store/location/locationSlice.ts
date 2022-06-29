@@ -4,7 +4,7 @@ import {
   getAsync,
   PermissionResponse,
   PermissionStatus,
-} from 'expo-permissions'
+} from 'expo-location'
 import { getCurrentPosition, LocationCoords } from '../../utils/location'
 
 export type AppState = {
